@@ -1,0 +1,177 @@
+body
+{
+    margin:0;
+    padding:0;
+    background:url(gravel.png);
+    font-family: reef,arial,sans-serif;
+    font-size:14px;
+  
+}
+
+#header 
+{
+    background:	#D3D3D3;
+    font-size:110%;
+    height:75px;
+    margin:10px;
+    border-radius: 5px;
+   
+}
+
+#nav ul
+{
+    border-radius: 5px;
+    margin:10px;
+    padding:4px;
+    text-align: center;
+    list-style-type: none;
+    background: #D3D3D3;
+}
+#nav ul li
+{
+    display: inline;
+}
+
+#nav ul li a
+{
+    text-decoration: none;
+    margin:5px;
+    padding:.2em 1em;
+    vertical-align: middle;
+    
+
+}
+#nav ul li a:hover
+{
+  background-color: #000;
+  color:#f3f3f3;
+  border-radius:5px;
+
+}
+.active
+{
+    background-color: 	#FFA500;
+    color:#000;
+    border-radius:5px;
+}
+
+.main
+{
+    border-radius: 5px;
+    margin:10px;
+    padding: 20px;
+    background:#fff;
+    font-size: 120%;
+    margin-right:350px;
+
+
+}
+.sidebar
+{
+    border-radius: 5px;
+    margin: 0px 10px 10px 10px;
+    padding: 20px;
+    background: url(vv.jpg);
+    font-size: 120%; 
+    float:right;
+    width:290px;
+    clear:right; 
+}
+
+#footer
+{
+    border-radius: 5px;
+    padding:10px;
+    margin:10px;
+    font-size: 90%;
+    text-align: center;
+    background: #FFA500;
+    clear:both;
+
+}
+#footer ul
+{
+    
+    margin:10px;
+    padding:4px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+#footer ul li
+{
+    display: inline;
+}
+
+#footer ul li a
+{
+    text-decoration: none;
+    margin:5px;
+    padding:.2em .1em;
+    vertical-align: middle;
+    color:#fff;
+    
+
+}
+#footer ul li a:hover
+{
+ text-decoration: underline;
+
+}
+#header h3
+{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 140%;
+    padding: 0 .1em ;
+
+   
+}
+#header img
+{
+    width:64px;;
+    height:64px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-top: -44px;
+}
+.sidebar h3
+{
+    font-size: 130%;
+    padding:0px .2em;
+    color:brown;
+    margin:10px 5px 10px 88px;
+}
+.sidebar form
+{
+    margin: 10px;
+    padding:.1em;
+    
+}
+.sidebar form input
+{
+   border-radius: 5px;
+   margin:10px;
+   border: transparent;
+   font-size: 75%;
+   margin-left: 52px;
+   height:23px;
+}
+
+.sidebar form button
+{
+   border-radius: 5px;
+   margin:10px;
+   border: transparent;
+   font-size: 75%;
+   margin-left: 82px;
+   height:29px;
+
+}
+.sidebar form button:hover
+{
+  background-color: green;
+  color:black;
+
+}
+
